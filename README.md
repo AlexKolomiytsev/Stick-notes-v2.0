@@ -1,1 +1,1 @@
-# Stick-notes-v2.0
+# Stick-notes

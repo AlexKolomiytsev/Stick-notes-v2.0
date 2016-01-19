@@ -1,0 +1,12 @@
+@font-face{font-family:Dosis;src:url(../../content/fonts/Dosis/Dosis-Regular.ttf)}
+body{background-color:#283739}
+.header{height:100px;position:relative;padding:20px}
+.header .addNewNote{position:absolute;color:#F7EEBB;font-size:40px;left:10%;text-shadow:5px 5px 10px #000;cursor:pointer;-webkit-transition:all .2s ease-in 0s;transition:all .2s ease-in 0s}
+.header .addNewNote:hover{color:#A9C52F;text-shadow:0 0 10px #2C5D63}
+.header h1{position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);font-family:Dosis;font-size:50px;color:#F7EEBB;text-shadow:10px 10px 15px #000}
+.note{position:relative;display:inline-block;width:300px;margin:0 10px;box-shadow:0 0 10px #000}
+.note .noteHeader{width:100%;position:relative;background-color:#2C5D63;font-size:20px;padding:5px;color:#283739}
+.note .noteHeader .deleteButton{float:right;cursor:pointer;-webkit-transition:all .2s ease-in 0s;transition:all .2s ease-in 0s}
+.note .noteHeader .deleteButton:hover{color:#A9C52F;text-shadow:3px 3px 1px #283739}
+.note .noteBody{width:100%;height:200px}
+.note .noteBody textarea{font-family:Dosis;font-size:20px;outline:0;border:none;padding:7px;width:100%;height:100%;background-color:#A9C52F;color:#283739;resize:none}
